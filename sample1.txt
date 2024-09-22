@@ -1,2 +1,2 @@
 Hi This is sample1 file
-i just got edited
+i have removed the second line
