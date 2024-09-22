@@ -1,0 +1,203 @@
+    1  sudo apt update
+    2  ls /etc
+    3  ls /etc/apt/
+    4  unzip
+    5  sudo apt install unzip
+    6  unzip
+    7  sudo apt install apache2
+    8  sudo systemctl status apache2
+    9  cd Linux/UNIX
+   10  cd /var/www/html
+   11  ls
+   12  vim index.html 
+   13  sudo rm index.html 
+   14  ls
+   15  sudo vim index.html
+   16  ls
+   17  vim index.html 
+   18  sudo systemctl restart apache2
+   19  sudo systemctl status apache2
+   20  clear
+   21  cd..
+   22  cd ..
+   23  sudo apt install wget unzip -y
+   24  wget https
+   25  ls
+   26  wget https://www.tooplate.com/zip-templates/2137_barista_cafe.zip
+   27  ls
+   28  sudo wget https://www.tooplate.com/zip-templates/2137_barista_cafe.zip
+   29  ls
+   30  unzip 2137_barista_cafe.zip 
+   31  sudo unzip 2137_barista_cafe.zip 
+   32  ls
+   33  ls 2137_barista_cafe
+   34  sudo rm /var/www/html/*
+   35  sudo cp -r 2137_barista_cafe/* /var/www/html/
+   36  ls /var/www/html
+   37  sudo systemctl restart apache2
+   38  sudo systemctl status apache2
+   39  sudo wget https://www.tooplate.com/zip-templates/2133_moso_interior.zip
+   40  ls
+   41  sudo rm /var/www/html/*
+   42  sudo rm -r /var/www/html/*
+   43  ls /var/www/html
+   44  unzip 2133_moso_interior.zip 
+   45  sudo unzip 2133_moso_interior.zip 
+   46  sudo cp -r 2133_moso_interior/* /var/www/html/
+   47  sudo rm -r /var/www/html/*
+   48  sudo wget https://www.tooplate.com/zip-templates/2131_wedding_lite.zip
+   49  sudo unzip 2131_wedding_lite.zip 
+   50  ls /var/www/html
+   51  sudo systemctl restart apache2
+   52  sudo systemctl status apache2
+   53  sudo cp -r 2131_wedding_lite/* /var/www/html/
+   54  sudo rm -r /var/www/html/*
+   55  sudo cp -r 2131_wedding_lite/ /var/www/html/
+   56  sudo systemctl restart apache2
+   57  sudo cp -r 2131_wedding_lite/* /var/www/html/
+   58  sudo rm -r /var/www/html/*
+   59  sudo cp -r 2131_wedding_lite/* /var/www/html/
+   60  sudo systemctl restart apache2
+   61  sudo systemctl status apache2
+   62  clear
+   63  sudo systemctl status apache2
+   64  cat /var/www/html/index.html
+   65  clear
+   66  ls
+   67  cd var
+   68  mkdir alpha
+   69  cd alpha
+   70  touch sample.txt
+   71  ls
+   72  ls -l
+   73  sudo chmod +x sample.txt
+   74  ls -l
+   75  sudo rm sample.txt
+   76  ls -l
+   77  ls
+   78  vim website.sh
+   79  ls -l
+   80  vim website.sh
+   81  ls
+   82  ls -l
+   83  sudo chmod +x website.sh
+   84  ls -l
+   85  ./website.sh
+   86  cat website.sh
+   87  vim website.sh
+   88  ./website.sh
+   89  systemctl restart apache2
+   90  vim website.sh
+   91  ./website.sh
+   92  vim website.sh
+   93  wget https://www.tooplate.com/zip-templates/2121_wave_cafe.zip
+   94  vim website.sh
+   95  wget https://www.tooplate.com/zip-templates/2136-kool-form-pack.zip
+   96  wget https://www.tooplate.com/zip-templates/2121_wave_cafe.zip
+   97  wget https://www.tooplate.com/zip-templates/2136-kool-form-pack.zip
+   98  wget https://www.tooplate.com/zip-templates/2137-barista-cafe.zip
+   99  wget https://www.tooplate.com/zip-templates/2130-waso-strategy.zip
+  100  vim website.sh
+  101  ./website.sh
+  102  vim website.sh
+  103  ./website.sh
+  104  ls -l
+  105  rm 2136-kool-form-pack.zip.1 2136-kool-form-pack.zip.2
+  106  rm -r 2136-kool-form-pack.zip.1 2136-kool-form-pack.zip.2
+  107  rm -r 2136_kool_form_pack.zip.1
+  108  rm -r 2136_kool_form_pack.zip.2
+  109  ls -l
+  110  rm -r 21*
+  111  ls -l
+  112  clear
+  113  vim website.sh
+  114  ./website.sh
+  115  vim website.sh
+  116  ./website.sh
+  117  ls -l
+  118  rm -r 21*
+  119  vim website.sh
+  120  ./website.sh
+  121  vim website.sh
+  122  ./website.sh
+  123  ls -l
+  124  ls -l
+  125  vim website.sh
+  126  ls -l
+  127  rm -rf *21 
+  128  ls -l
+  129  rm -rf 2136_kool_form_pack.zip.1 
+  130  ls -l
+  131  ./website.sh
+  132  vim website.sh
+  133  ping
+  134  clear
+  135  vim website.sh
+  136  clear
+  137  vim forloop.sh
+  138  ./forloop.sh
+  139  chmod -x
+  140  chmod -x forloop.sh
+  141  ./forloop.sh
+  142  ls -ll
+  143  sudo chmod -x forloop.sh
+  144  ls -ll
+  145  ./forloop.sh
+  146  sudo chmod +x forloop.sh
+  147  ./forloop.sh
+  148  vim forloops.sh
+  149  ./forloops.sh
+  150  sudo chmod +x forloops.sh
+  151  ./forloops.sh
+  152  vim forloops.sh
+  153  ./forloops.sh
+  154  sudo apt update
+  155  ls -ll
+  156  vim website.sh
+  157  vim -r website.sh
+  158  pwd
+  159  crontab -e
+  160  date
+  161  sudo -i
+  162  apt update
+  163  sudo apt update
+  164  sudo apt install git
+  165  ssh -keygen -t rsa
+  166  ssh-keygen -t rsa
+  167  ls -a
+  168  ls .ssh
+  169  cat .ssh/id_rsa.pub
+  170  git clone git@github.com:devopstechhub/fuzzy-winner.git
+  171  ls
+  172  cd fuzzy-winner/
+  173  git branch
+  174  git status
+  175  git add sample.txt
+  176  touch sample{1..10}.txt
+  177  git status
+  178  git add .
+  179  git status
+  180  git commit -m "sending all sample files"
+  181  git push
+  182  sudo git push
+  183  cd..
+  184  cd
+  185  git clone git@github.com:user[200~username/repository.gitname/repository.git
+  186  git clone git@github.com:saikirangitpractise/webserver-practise
+  187  git clone git@github.com:saikirangitpractise/webserver-practise.git
+  188  git clone git@github.com:saikirangitpractise/webserver-practise1.git
+  189  ssh -T git@github.com
+  190  ls
+  191  cd webserver-practise/
+  192  touch sample{1..10}.txt
+  193  ls
+  194  cat sample.txt
+  195  git push
+  196  git add.
+  197  git add
+  198  git add .
+  199  git commit -m "moved all sample text files"
+  200  git push origin main
+  201  ls
+  202  git pull
+  203  history > history.txt
